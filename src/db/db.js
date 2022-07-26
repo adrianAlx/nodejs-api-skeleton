@@ -1,7 +1,7 @@
 'use strict';
 
-const { connect } = require('mongoose');
-const { MONGODB_URI } = require('../config');
+import { connect } from 'mongoose';
+import { MONGODB_URI } from './../config';
 
 (async () => {
   try {
